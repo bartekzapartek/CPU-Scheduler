@@ -1,0 +1,12 @@
+normal_distribution seed=(1, 2) mean=(250, 20) standard_deviation=(50, 15) sample_size=10
+------------------------------------------------------------
+Burst Time = 331 Arrival Time = 13
+Burst Time = 219 Arrival Time = 19
+Burst Time = 223 Arrival Time = 12
+Burst Time = 196 Arrival Time = 44
+Burst Time = 293 Arrival Time = 6
+Burst Time = 134 Arrival Time = 7
+Burst Time = 337 Arrival Time = 27
+Burst Time = 211 Arrival Time = 1
+Burst Time = 265 Arrival Time = 4
+Burst Time = 237 Arrival Time = 6

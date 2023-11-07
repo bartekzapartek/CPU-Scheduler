@@ -1,0 +1,15 @@
+# seed=(1, 2) mean=(5, 20) standard_deviation=(1, 15) number_of_processes=10
+------------------------------------------------------------
+Average waiting time : 49.6
+Average turn around time : 53.9
+------------------------------------------------------------
+Process 0 | Waiting Time 0 | Burst Time 3 | Arrival Time 44 | Turn Around Time 3
+Process 1 | Waiting Time 20 | Burst Time 6 | Arrival Time 27 | Turn Around Time 26
+Process 2 | Waiting Time 34 | Burst Time 4 | Arrival Time 19 | Turn Around Time 38
+Process 3 | Waiting Time 44 | Burst Time 6 | Arrival Time 13 | Turn Around Time 50
+Process 4 | Waiting Time 51 | Burst Time 4 | Arrival Time 12 | Turn Around Time 55
+Process 5 | Waiting Time 60 | Burst Time 2 | Arrival Time 7 | Turn Around Time 62
+Process 6 | Waiting Time 63 | Burst Time 5 | Arrival Time 6 | Turn Around Time 68
+Process 7 | Waiting Time 68 | Burst Time 4 | Arrival Time 6 | Turn Around Time 72
+Process 8 | Waiting Time 74 | Burst Time 5 | Arrival Time 4 | Turn Around Time 79
+Process 9 | Waiting Time 82 | Burst Time 4 | Arrival Time 1 | Turn Around Time 86

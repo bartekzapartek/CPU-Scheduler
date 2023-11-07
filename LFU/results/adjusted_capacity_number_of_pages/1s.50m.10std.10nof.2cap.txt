@@ -1,0 +1,17 @@
+# seed = 1 mean = 50 standard_deviation = 10 number_of_pages = 10
+Capacity of LSU = 2
+------------------------------------------------------------
+Page Faults = 10
+Page Hits = 0
+------------------------------------------------------------
+[66] <-- Page - 66 | Page Fault Here
+[66, 43] <-- Page - 43 | Page Fault Here
+[43, 44] <-- Page - 44 | Page Fault Here
+[44, 39] <-- Page - 39 | Page Fault Here
+[39, 58] <-- Page - 58 | Page Fault Here
+[58, 26] <-- Page - 26 | Page Fault Here
+[26, 67] <-- Page - 67 | Page Fault Here
+[67, 42] <-- Page - 42 | Page Fault Here
+[42, 53] <-- Page - 53 | Page Fault Here
+[53, 47] <-- Page - 47 | Page Fault Here
+------------------------------------------------------------

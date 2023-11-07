@@ -1,0 +1,107 @@
+# seed = 1 mean = 50 standard_deviation = 10 number_of_pages = 100
+Capacity of LRU = 5
+------------------------------------------------------------
+Page Faults = 79
+Page Hits = 21
+------------------------------------------------------------
+[66] <-- Page - 66 | Page Fault Here
+[66, 43] <-- Page - 43 | Page Fault Here
+[66, 43, 44] <-- Page - 44 | Page Fault Here
+[66, 43, 44, 39] <-- Page - 39 | Page Fault Here
+[66, 43, 44, 39, 58] <-- Page - 58 | Page Fault Here
+[43, 44, 39, 58, 26] <-- Page - 26 | Page Fault Here
+[44, 39, 58, 26, 67] <-- Page - 67 | Page Fault Here
+[39, 58, 26, 67, 42] <-- Page - 42 | Page Fault Here
+[58, 26, 67, 42, 53] <-- Page - 53 | Page Fault Here
+[26, 67, 42, 53, 47] <-- Page - 47 | Page Fault Here
+[67, 42, 53, 47, 64] <-- Page - 64 | Page Fault Here
+[42, 53, 47, 64, 29] <-- Page - 29 | Page Fault Here
+[53, 47, 64, 29, 46] <-- Page - 46 | Page Fault Here
+[53, 47, 64, 29, 46] <-- Page - 46
+[47, 64, 29, 46, 61] <-- Page - 61 | Page Fault Here
+[64, 29, 46, 61, 39] <-- Page - 39 | Page Fault Here
+[29, 46, 61, 39, 48] <-- Page - 48 | Page Fault Here
+[46, 61, 39, 48, 41] <-- Page - 41 | Page Fault Here
+[61, 39, 48, 41, 50] <-- Page - 50 | Page Fault Here
+[39, 48, 41, 50, 55] <-- Page - 55 | Page Fault Here
+[48, 41, 50, 55, 38] <-- Page - 38 | Page Fault Here
+[41, 50, 55, 38, 61] <-- Page - 61 | Page Fault Here
+[50, 55, 38, 61, 59] <-- Page - 59 | Page Fault Here
+[50, 38, 61, 59, 55] <-- Page - 55
+[50, 38, 61, 55, 59] <-- Page - 59
+[38, 61, 55, 59, 43] <-- Page - 43 | Page Fault Here
+[61, 55, 59, 43, 48] <-- Page - 48 | Page Fault Here
+[55, 59, 43, 48, 40] <-- Page - 40 | Page Fault Here
+[59, 43, 48, 40, 47] <-- Page - 47 | Page Fault Here
+[43, 48, 40, 47, 55] <-- Page - 55 | Page Fault Here
+[48, 40, 47, 55, 43] <-- Page - 43
+[40, 47, 55, 43, 46] <-- Page - 46 | Page Fault Here
+[40, 47, 55, 46, 43] <-- Page - 43
+[47, 55, 46, 43, 41] <-- Page - 41 | Page Fault Here
+[47, 55, 46, 41, 43] <-- Page - 43
+[55, 46, 41, 43, 49] <-- Page - 49 | Page Fault Here
+[46, 41, 43, 49, 38] <-- Page - 38 | Page Fault Here
+[41, 43, 49, 38, 52] <-- Page - 52 | Page Fault Here
+[43, 49, 38, 52, 66] <-- Page - 66 | Page Fault Here
+[49, 38, 52, 66, 57] <-- Page - 57 | Page Fault Here
+[38, 52, 66, 57, 48] <-- Page - 48 | Page Fault Here
+[52, 66, 57, 48, 41] <-- Page - 41 | Page Fault Here
+[66, 57, 48, 41, 42] <-- Page - 42 | Page Fault Here
+[57, 48, 41, 42, 66] <-- Page - 66
+[48, 41, 42, 66, 50] <-- Page - 50 | Page Fault Here
+[41, 42, 66, 50, 43] <-- Page - 43 | Page Fault Here
+[42, 66, 50, 43, 51] <-- Page - 51 | Page Fault Here
+[66, 50, 43, 51, 71] <-- Page - 71 | Page Fault Here
+[66, 50, 43, 71, 51] <-- Page - 51
+[50, 43, 71, 51, 56] <-- Page - 56 | Page Fault Here
+[43, 71, 51, 56, 53] <-- Page - 53 | Page Fault Here
+[71, 51, 56, 53, 46] <-- Page - 46 | Page Fault Here
+[51, 56, 53, 46, 38] <-- Page - 38 | Page Fault Here
+[51, 56, 53, 38, 46] <-- Page - 46
+[56, 53, 38, 46, 47] <-- Page - 47 | Page Fault Here
+[53, 38, 46, 47, 55] <-- Page - 55 | Page Fault Here
+[38, 46, 47, 55, 58] <-- Page - 58 | Page Fault Here
+[46, 47, 55, 58, 59] <-- Page - 59 | Page Fault Here
+[47, 55, 58, 59, 52] <-- Page - 52 | Page Fault Here
+[47, 55, 59, 52, 58] <-- Page - 58
+[55, 59, 52, 58, 42] <-- Page - 42 | Page Fault Here
+[59, 52, 58, 42, 62] <-- Page - 62 | Page Fault Here
+[52, 58, 42, 62, 55] <-- Page - 55 | Page Fault Here
+[58, 42, 62, 55, 47] <-- Page - 47 | Page Fault Here
+[42, 62, 55, 47, 54] <-- Page - 54 | Page Fault Here
+[62, 55, 47, 54, 49] <-- Page - 49 | Page Fault Here
+[55, 47, 54, 49, 61] <-- Page - 61 | Page Fault Here
+[47, 54, 49, 61, 65] <-- Page - 65 | Page Fault Here
+[54, 49, 61, 65, 71] <-- Page - 71 | Page Fault Here
+[49, 61, 65, 71, 36] <-- Page - 36 | Page Fault Here
+[61, 65, 71, 36, 35] <-- Page - 35 | Page Fault Here
+[65, 71, 36, 35, 44] <-- Page - 44 | Page Fault Here
+[71, 36, 35, 44, 51] <-- Page - 51 | Page Fault Here
+[36, 35, 44, 51, 58] <-- Page - 58 | Page Fault Here
+[35, 44, 51, 58, 53] <-- Page - 53 | Page Fault Here
+[44, 51, 58, 53, 29] <-- Page - 29 | Page Fault Here
+[51, 58, 53, 29, 46] <-- Page - 46 | Page Fault Here
+[51, 53, 29, 46, 58] <-- Page - 58
+[53, 29, 46, 58, 52] <-- Page - 52 | Page Fault Here
+[29, 46, 58, 52, 57] <-- Page - 57 | Page Fault Here
+[46, 58, 52, 57, 47] <-- Page - 47 | Page Fault Here
+[46, 58, 52, 57, 47] <-- Page - 47
+[58, 52, 57, 47, 51] <-- Page - 51 | Page Fault Here
+[52, 57, 47, 51, 54] <-- Page - 54 | Page Fault Here
+[52, 57, 47, 54, 51] <-- Page - 51
+[52, 57, 47, 54, 51] <-- Page - 51
+[57, 47, 54, 51, 43] <-- Page - 43 | Page Fault Here
+[47, 54, 51, 43, 53] <-- Page - 53 | Page Fault Here
+[47, 54, 43, 53, 51] <-- Page - 51
+[54, 43, 53, 51, 61] <-- Page - 61 | Page Fault Here
+[54, 43, 53, 51, 61] <-- Page - 61
+[54, 43, 53, 61, 51] <-- Page - 51
+[43, 53, 61, 51, 46] <-- Page - 46 | Page Fault Here
+[53, 61, 51, 46, 43] <-- Page - 43
+[61, 51, 46, 43, 54] <-- Page - 54 | Page Fault Here
+[51, 46, 43, 54, 50] <-- Page - 50 | Page Fault Here
+[51, 43, 54, 50, 46] <-- Page - 46
+[51, 43, 54, 46, 50] <-- Page - 50
+[51, 54, 46, 50, 43] <-- Page - 43
+[54, 46, 50, 43, 56] <-- Page - 56 | Page Fault Here
+------------------------------------------------------------
